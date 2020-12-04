@@ -90,7 +90,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             activePlayer = 2
         } else {
             clickedView.text = "0"
-            clickedView.setBackgroundColor(Color.WHITE)
+            clickedView.setBackgroundColor(Color.GREEN)
             secondPlayer.add(buttonNumber)
             activePlayer = 1
         }
@@ -184,15 +184,15 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         button7.text = ""
         button8.text = ""
         button9.text = ""
-        button1.getBackground().clearColorFilter();
-        button2.getBackground().clearColorFilter();
-        button3.getBackground().clearColorFilter();
-        button4.getBackground().clearColorFilter();
-        button5.getBackground().clearColorFilter();
-        button6.getBackground().clearColorFilter();
-        button7.getBackground().clearColorFilter();
-        button8.getBackground().clearColorFilter();
-        button9.getBackground().clearColorFilter();
+        button1.setBackgroundColor(Color.parseColor("#AD72B6"))
+        button2.setBackgroundColor(Color.parseColor("#AD72B6"))
+        button3.setBackgroundColor(Color.parseColor("#AD72B6"))
+        button4.setBackgroundColor(Color.parseColor("#AD72B6"))
+        button5.setBackgroundColor(Color.parseColor("#AD72B6"))
+        button6.setBackgroundColor(Color.parseColor("#AD72B6"))
+        button7.setBackgroundColor(Color.parseColor("#AD72B6"))
+        button8.setBackgroundColor(Color.parseColor("#AD72B6"))
+        button9.setBackgroundColor(Color.parseColor("#AD72B6"))
         button1.isEnabled = true
         button2.isEnabled = true
         button3.isEnabled = true
